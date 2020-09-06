@@ -99,12 +99,6 @@ textarea {
 
   /* Header styles */
 
-  header {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-  }
-
   header .content-wrapper {
       align-items: center;
       display: flex;
@@ -120,9 +114,22 @@ textarea {
   }
 
   header nav ul {
-      align-items: center;
       display: flex;
       justify-content: space-around;
+  }
+
+  /* Footer */
+
+  footer .social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
  /* ------------- Mobile Styles - Homepage ------------- */
@@ -188,50 +195,6 @@ textarea {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-  }
-
-  /* Footer */
-
-  footer {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  footer .content-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-content {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  .contact {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  footer .social {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  footer .social-icons {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .copyright {
-    align-items: center;
-    display: flex;
     justify-content: center;
   }
 
