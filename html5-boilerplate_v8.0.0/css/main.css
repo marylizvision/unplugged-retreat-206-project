@@ -99,11 +99,22 @@ textarea {
 
   /* Header styles */
 
+  header {
+    padding: 15px 0;
+  }
+
   header .content-wrapper {
       align-items: center;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+      margin: 0;
+  }
+
+  .header-divider {
+      height: 1px;
+      margin: 10px 0 20px 0;
+      width: 100%;
   }
 
   header nav {
@@ -111,14 +122,33 @@ textarea {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
+      width: 60%;
   }
 
   header nav ul {
       display: flex;
       justify-content: space-around;
+      width: 100%;
   }
 
   /* Footer */
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer .content-wrapper {
+    margin: 50px 0;
+    width: 55%;
+  }
+
+  footer .contact {
+    margin-bottom: 50px;
+  }
 
   footer .social-icons {
     align-items: center;
@@ -126,20 +156,25 @@ textarea {
     justify-content: space-around;
   }
 
-  footer .social-icons {
+  footer .social-icons p {
     align-items: center;
     display: flex;
     justify-content: center;
+  }
+
+  footer .copyright {
+    margin: 20px 0;
   }
 
  /* ------------- Mobile Styles - Homepage ------------- */
 
   .hero-area {
-    align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
+
+  /* Aside */
 
   aside {
     align-items: center;
@@ -148,12 +183,21 @@ textarea {
     justify-content: center;
   }
 
+/* Features */
 
   .features {
-    align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+  }
+
+  .features h2 {
+    margin-bottom: 60px;
+  }
+
+  .features article {
+    width: 63%;
+    margin: 30px 0;
   }
 
   .features .features-items {
@@ -163,12 +207,30 @@ textarea {
     justify-content: center;
 }
 
+  .features p {
+    margin: 0;
+  }
+
+/* Reviews */
+
   .reviews {
-    align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
+
+  .reviews h2 {
+    margin-bottom: 40px;
+  }
+
+  .reviews h3 {
+    margin: 20px 0;
+    width: 55%;
+  }
+
+  /* ==========================================================================
+     About Page
+     ========================================================================== */
 
   .mission {
     align-items: center;
@@ -184,6 +246,14 @@ textarea {
     justify-content: center;
   }
 
+  .contact-content p {
+    margin: 0;
+  }
+
+  /* ==========================================================================
+     FAQ Page
+     ========================================================================== */
+
   .faq {
     align-items: center;
     display: flex;
@@ -196,8 +266,16 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 50px 0 0 0;
   }
 
+  .faq h2 {
+    margin-bottom: 40px;
+  }
+
+  .faq-content {
+    margin-bottom: 50px;
+  }
 
 /* ==========================================================================
    Helper classes
