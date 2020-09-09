@@ -132,11 +132,11 @@ textarea {
   }
 
   img {
-
+    width: 100%;
   }
 
   figure {
-
+    margin: 0;
   }
 
   address {
@@ -169,6 +169,14 @@ textarea {
       flex-flow: row wrap;
       justify-content: center;
       margin: 0;
+  }
+
+  header figure {
+      align-items: center;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: 60%;
   }
 
   .header-divider {
@@ -238,9 +246,15 @@ textarea {
  /* ------------- Mobile Styles - Homepage ------------- */
 
   .hero-area {
+    background-color: #333;
+    background-image: url('../img/jake-melara-30679-unsplash-hero-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    min-height: 500px;
   }
 
   .hero-area h1 {
@@ -289,6 +303,11 @@ textarea {
 /* Features */
 
   .features {
+    background-color: #333;
+    background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -504,6 +523,7 @@ textarea {
   }
 
   header .content-wrapper {
+    flex-flow: row nowrap;
     justify-content: space-between;
     width: 100%;
   }
@@ -520,11 +540,19 @@ textarea {
     justify-content: space-between;
   }
 
+  header nav ul li {
+    padding-right: 30%;
+  }
+
   .header-divider {
     display: none;
   }
 
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -562,6 +590,7 @@ textarea {
   }
 
   .features .features-item-description {
+    text-align: center;
     width: 62%;
   }
 
@@ -570,6 +599,10 @@ textarea {
   .reviews article {
     display: flex;
     justify-content: space-between;
+  }
+
+  .reviews article figure {
+    width: 49%;
   }
 
   .reviews h2 {
@@ -631,7 +664,7 @@ textarea {
     width: 45%;
   }
 
-  .content-section .content-wrapper h2 {
+  .contact-section .content-wrapper h2 {
     width: 80%;
   }
 
@@ -653,7 +686,7 @@ textarea {
   }
 
   .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
   .faq h2 {
@@ -663,7 +696,7 @@ textarea {
   .faq h4,
   .faq p {
     font-size: 0.875em;
-    line-height: 1.4em;
+    line-height: 1em;
   }
 }
 
@@ -698,9 +731,13 @@ textarea {
 
   /* Hero area */
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /* Aside */
@@ -743,7 +780,7 @@ textarea {
      ========================================================================== */
 
   .mission h2,
-  .content-section .content-wrapper h2 {
+  .contact-section .content-wrapper h2 {
     font-size: 3em;
     width: 95%;
   }
@@ -764,7 +801,7 @@ textarea {
   .faq h4,
   .faq p {
     font-size: 1.125em;
-    line-height: 1;
+    /* line-height: 0.825; */
   }
 
 }
