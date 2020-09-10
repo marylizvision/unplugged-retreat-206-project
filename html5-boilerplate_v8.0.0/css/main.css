@@ -200,6 +200,7 @@ textarea {
   header nav ul {
       display: flex;
       justify-content: space-around;
+      padding: 0;
       width: 100%;
   }
 
