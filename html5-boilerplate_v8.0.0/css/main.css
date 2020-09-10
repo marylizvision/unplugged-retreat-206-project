@@ -233,10 +233,18 @@ textarea {
     justify-content: space-around;
   }
 
+  footer .social-icons i {
+    font-size: 1.3125em;
+  }
+
   footer .social-icons p {
     align-items: center;
+    background-color: #527158;
+    border-radius: 50%;
     display: flex;
+    height: 40px;
     justify-content: center;
+    width: 40px;
   }
 
   footer .copyright {
@@ -656,6 +664,11 @@ textarea {
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12.5em;
   }
 
   footer h4 {
